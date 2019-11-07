@@ -2,22 +2,41 @@ section {
   display: flex;
 }
 
-.case {
+.caseempty {
   height: 100px;
   width: 100px;
-  background-color: orange;
-  border-style: solid;
-  border-width: 3px;
+  background-color: rgb(174, 115, 6);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.5s linear;
 }
+.casefilled {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
 
-.NO {
-  display: none;
-  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.5s linear;
 }
-.YES {
-  font-size: 4rem;
+.Win {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(89, 228, 89);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.5s linear;
 }
