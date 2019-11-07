@@ -1,11 +1,13 @@
 section {
   display: flex;
 }
+h1 {
+  text-align: center;
+}
 
-.caseempty {
+.box {
   height: 100px;
   width: 100px;
-  background-color: rgb(174, 115, 6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,29 +16,21 @@ section {
   border-width: 1px;
   transition: all 0.5s linear;
 }
-.casefilled {
-  height: 100px;
-  width: 100px;
-  background-color: orange;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  border-style: solid;
-  border-width: 1px;
-  transition: all 0.5s linear;
+.O {
+  background-color: rgb(114, 216, 241);
+}
+.X {
+  background-color: rgb(249, 164, 6);
+}
+.empty {
+  background-color: rgb(179, 129, 37);
 }
 .Win {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(89, 228, 89);
+  background-color: rgb(58, 218, 58);
+}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.end {
   font-size: 3rem;
-  border-style: solid;
-  border-width: 1px;
-  transition: all 0.5s linear;
+  background-color: orange;
 }

@@ -5,7 +5,6 @@ const checkRows = grid => {
     for (let j = 0; j < size; j++) {
       sum += grid[i][j];
     }
-    console.log(sum);
     if (sum === size || sum === 0) {
       //changer les cases
       for (let j = 0; j < size; j++) {
@@ -24,7 +23,6 @@ const checkCols = grid => {
     for (let j = 0; j < size; j++) {
       sum += grid[j][i];
     }
-    console.log(sum);
     if (sum === size || sum === 0) {
       //changer les cases
       for (let j = 0; j < size; j++) {
